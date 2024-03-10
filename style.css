@@ -1,0 +1,52 @@
+.image_gallery{
+  
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.image_gallery img {
+   width: 230px;
+   padding: 5px;
+   filter: grayscale();
+   transition: 1s;
+   position: relative;
+   z-index: 1; 
+}
+
+.image_gallery img:hover {
+   filter: grayscale(0);
+   transform: scale(2.1);
+   z-index: 2; 
+}
+h1 {
+    display: block;
+    font-size: 3em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+    font-style: baskerville;
+    color:black;
+  }
+ .k{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+ }
+ .image_gallery_photos
+ {
+    
+    text-align: center;
+ }
+ .n{
+    height: 300px;
+    width: 300px;
+    
+ }
+ .symbol{
+    text-align: center;
+ }
+  
